@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xoş Anlar Tətbiqi Məxfilik Siyasəti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .contact {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Xoş Anlar Tətbiqi Məxfilik Siyasəti</h1>
+    <p class="last-updated">Son yeniləmə: <span id="current-date"></span></p>
+    
+    <h2>1. Məlumat Toplama</h2>
+    <p>Tətbiqimiz istifadə zamanı aşağıdakı məlumatları toplaya bilər:</p>
+    <ul>
+        <li><strong>Facebook girişi ilə:</strong>
+            <ul>
+                <li>Email ünvanı</li>
+                <li>Profil şəkli</li>
+                <li>İstifadəçi adı</li>
+            </ul>
+        </li>
+        <li><strong>Avtomatik toplanan məlumatlar:</strong>
+            <ul>
+                <li>Cihaz ID</li>
+                <li>IP ünvanı</li>
+                <li>İstifadə statistikası</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. Məlumatların İstifadəsi</h2>
+    <p>Toplanan məlumatlar aşağıdakı məqsədlər üçün istifadə olunur:</p>
+    <ul>
+        <li>Hesab yaradılması və identifikasiya</li>
+        <li>Tətbiqin funksionallığının təmin edilməsi</li>
+        <li>İstifadəçi təcrübəsinin yaxşılaşdırılması</li>
+        <li>Təhlükəsizliyin təmin edilməsi</li>
+    </ul>
+
+    <h2>3. Məlumat Paylaşımı</h2>
+    <p>İstifadəçi məlumatları yalnız:</p>
+    <ul>
+        <li>Qanuni öhdəliklərimizi yerinə yetirmək üçün</li>
+        <li>Tətbiqin xidmət təminatçıları ilə (sirli şəkildə)</li>
+    </ul>
+    <p>3-cü şəxslərlə məlumat satışı edilmir.</p>
+
+    <h2>4. Məlumatların Qorunması</h2>
+    <p>Məlumatlarınız şifrələnmiş serverlərdə saxlanılır və təhlükəsizlik tədbirləri ilə qorunur.</p>
+
+    <h2>5. İstifadəçi Hüquqları</h2>
+    <p>İstifadəçilər olaraq aşağıdakı hüquqlara maliksiniz:</p>
+    <ul>
+        <li>Məlumatlarınıza daxil olmaq</li>
+        <li>Məlumatlarınızı düzəltmək</li>
+        <li>Hesabınızı silmək</li>
+    </ul>
+
+    <div class="contact">
+        <h2>6. Əlaqə</h2>
+        <p>Məxfilik siyasəti ilə bağlı suallarınız üçün:</p>
+        <p>Email: <a href="mailto:privacy@xoshanlar.com">privacy@xoshanlar.com</a></p>
+    </div>
+
+    <script>
+        // Avtomatik tarix əlavə etmək
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('az-AZ', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
