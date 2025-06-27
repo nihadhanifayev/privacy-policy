@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Deletion Instructions</title>
+</head>
+<body>
+    <h1>Xoş Anlar App - User Data Deletion</h1>
+    <p>Hesabınızı silmək üçün:</p>
+    <ol>
+        <li>Tətbiq daxilində "Profil" bölməsinə daxil olun</li>
+        <li>"Hesabı Sil" düyməsini klikləyin</li>
+        <li>Təsdiqləmə kodunu daxil edin</li>
+    </ol>
+    <p>Əgər problem yaşayırsınız: <a href="mailto:support@xoshanlar.com">support@xoshanlar.com</a></p>
+</body>
+</html>
